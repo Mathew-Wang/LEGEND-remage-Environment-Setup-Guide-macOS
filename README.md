@@ -1,5 +1,3 @@
-# setting-up-environment-for-LEGEND-remage-Mac-
-
 # 🚀 LEGEND Simulation Environment Setup Guide (macOS)
 
 Welcome! This is a zero-to-hero, step-by-step guide to setting up the LEGEND simulation environment (`remage`, `legend-pygeom-hpges`) on a Mac, specifically tailored for Apple Silicon (M1/M2/M3) users. 
