@@ -31,9 +31,9 @@ Before we really create a room/folder, we need to make sure our house is settled
 
 ### 📂 Step 1: Open a Folder
 
-### Step 2: Create Python Virtual Environments
+### 🐍 Step 2: Create Python Virtual Environments
 
-### Step 3: Install Packages
+### 📦 Step 3: Install Packages
 
 ## Running Simulations
 
