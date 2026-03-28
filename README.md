@@ -43,12 +43,11 @@ Before we really create a room/folder, we need to make sure our house is settled
 
 
 
-
+---
 
 ### 📂 Step 0: The Workspace
 Before we begin, create a dedicated folder for your simulations on your computer and open it in **VS Code**. Open an integrated terminal in VS Code to run the following commands.
 
----
 
 ## 🍺 Step 1: Install Homebrew
 Homebrew is the ultimate package manager for macOS. We will use it to install our underlying system dependencies.
