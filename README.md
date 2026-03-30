@@ -22,7 +22,12 @@ Now you already know what *remage* is for! So it's time to build a cozy house fo
 Before we really create a room/folder, we need to make sure our house is settled, otherwise we won't be able to install packages in the rooms (You will understand why later). Please follow the steps below carefully to make sure the house is cozy enough for Ms.Remage.
 
 ## Settle your House/MacOS
-Open your VS Code
+Start your VS Code, and open the terminal in it. If you don't know where to find, see below:
+<p align="center">
+<img width="854" height="1003" alt="terminal1" src="https://github.com/user-attachments/assets/5d2909c5-2dc4-42b6-96bf-2c5db105fc6b" />
+<img width="858" height="1002" alt="terminal2" src="https://github.com/user-attachments/assets/f71c467f-79fc-4c80-abfc-0d66667978f5" />
+</p>
+
 
 ### 💻 Step 1: Install Homebrew
 
