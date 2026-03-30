@@ -8,7 +8,7 @@ So let's start, shall we?
 
 <details>
 <summary> I use VS Code. </summary>
-I use Visual Studio Code (VS Code) as editor for its tidiness. To be honest, I'm not sure whether other code editors will work or not. You can try, but I don't know. Sorry.
+I use Visual Studio Code (VS Code) as editor for its tidiness, thus all the following procedures will be done on VS Code. To be honest, I'm not sure whether other code editors will work or not. You can try, but I don't know. Sorry.
 </details>
 
 ---
@@ -22,6 +22,7 @@ Now you already know what *remage* is for! So it's time to build a cozy house fo
 Before we really create a room/folder, we need to make sure our house is settled, otherwise we won't be able to install packages in the rooms (You will understand why later). Please follow the steps below carefully to make sure the house is cozy enough for Ms.Remage.
 
 ## Settle your House/MacOS
+Open your VS Code
 
 ### 💻 Step 1: Install Homebrew
 
