@@ -38,7 +38,7 @@ In the terminal, you should find a string of text with a "%" at the end. By typi
 
 #### Step 1.1: Homebrew Installing Command
 
-Homebrew is a very powerful "package manager" for macOS, and you can think of it as the "App Store" for terminals. We need Homebrew to acquire packages and dependencies, so go to the website of [Homebrew](https://brew.sh) and copy the command. The command should look something like this:
+Homebrew is a very powerful "package manager" for macOS, and you can think of it as the "App Store" for terminals. We need Homebrew to acquire packages and dependencies, so go to the website of [Homebrew](https://brew.sh) and copy the command on home page. The command should look something like this:
 ```bash
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
@@ -53,12 +53,32 @@ The "$" at the beginning of commands is just a notation specifying that these co
 
 #### Step 1.2 Enter Password
 
-Then, you should see your terminal asking you to *enter password*. Type the password of your **Apple account** (i.e. the one you use to log in macOS) directly.
+Then, you should see your terminal asking you to *enter password*. Type the password of your **Apple account** (i.e. the one you use to log in your macOS) directly and press Enter.
 
 <details>
 <summary> Your password won't show. </summary>
 It's completely normal that the typed letters are invisible. Don't panic, nothing is wrong, they're just trying to protect your privacy.
 </details>
+
+#### Step 1.3 Add Homebrew to your Path
+
+Now there's only one step left for installing Homebrew: Scroll through your terminal and look for "===> Nest steps:". Find all commands start with *echo* or *eval*, paste and run them in the terminal ONE BY ONE.
+
+That is, you should find commands like
+
+```bash
+$ echo >> /Users/[your_username]/.zprofile
+```
+
+```bash
+$ echo 'eval "$(/opt/homebrew/bin/brew shellenv zsh)"' >> /Users/[your_username]/.zprofile
+```
+
+```bash
+$ eval "$(/opt/homebrew/bin/brew shellenv zsh)"
+```
+
+in the section with the title of "===> Nest steps:". ONE AT A TIME, copy & paste one after the "%" in your terminal, then press Enter.
 
 ### 🍺 Step 2: Install Dependencies
 
