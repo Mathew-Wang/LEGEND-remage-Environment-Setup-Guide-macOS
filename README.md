@@ -7,6 +7,7 @@ We will start all the way from an introduction to what remage is, then move on t
 So let's start, shall we?
 
 <details>
+  
 <summary> I use VS Code. </summary>
 
 I use **Visual Studio Code (VS Code)** as editor for its tidiness, thus all the following procedures will be done on VS Code. To be honest, I'm not sure whether other code editors will work or not. You can try, but I don't know. Sorry.
@@ -36,6 +37,7 @@ Start your VS Code, and open the terminal in it. If you don't know where to find
 <p align="center">
 
 <img width="45%" height="1009" alt="terminal1" src="https://github.com/user-attachments/assets/39021061-963e-4925-90c0-3a8ae046d9e1" />
+
 <img width="45%" height="1007" alt="terminal2" src="https://github.com/user-attachments/assets/3e02f192-3b2a-48af-b434-d45a8c8507dd" />
 
 </p>
