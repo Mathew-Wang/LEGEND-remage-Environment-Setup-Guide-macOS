@@ -8,7 +8,9 @@ So let's start, shall we?
 
 <details>
 <summary> I use VS Code. </summary>
-I use Visual Studio Code (VS Code) as editor for its tidiness, thus all the following procedures will be done on VS Code. To be honest, I'm not sure whether other code editors will work or not. You can try, but I don't know. Sorry.
+
+I use **Visual Studio Code (VS Code)** as editor for its tidiness, thus all the following procedures will be done on VS Code. To be honest, I'm not sure whether other code editors will work or not. You can try, but I don't know. Sorry.
+
 </details>
 
 ---
@@ -124,7 +126,27 @@ Our house is done, so let's deal with the rooms:
 
 Create a folder in your macOS, and open it in VS Code.
 
-### 🐍 Step 2: Create Python Virtual Environments
+### 🐍 Step 2: Create a Python Virtual Environment
+
+The reason why we need to create virtual environments in rooms is to make sure every single room is independent, such that packages, kernels, or edition of Python used in a room won't interfere other rooms.
+
+Hence, after you open the folder in VS Code, run the following commands (one-by-one; in terminal):
+
+```bash
+# create the virtual environment
+$ python3 -m venv legend_env
+
+# open the virtaul environment
+$ source legend_env/bin/activate
+```
+
+<details>
+  
+```bash
+$ deactivate
+```
+
+</details>
 
 ### 📦 Step 3: Install Packages
 
