@@ -118,7 +118,11 @@ Also, since Homebrew and dependencies installed with Homebrew are directly built
 
 ## Create a Room/Folder
 
+Our house is done, so let's deal with the rooms:
+
 ### 📂 Step 1: Open a Folder
+
+Create a folder in your macOS, and open it in VS Code.
 
 ### 🐍 Step 2: Create Python Virtual Environments
 
@@ -135,29 +139,3 @@ These packages are in your room so for new rooms new installation. Homebrew, dep
 
 
 ---
-
-### 📂 Step 0: The Workspace
-Before we begin, create a dedicated folder for your simulations on your computer and open it in **VS Code**. Open an integrated terminal in VS Code to run the following commands.
-
-
-## 🍺 Step 1: Install Homebrew
-Homebrew is the ultimate package manager for macOS. We will use it to install our underlying system dependencies.
-
-```bash
-# Install Homebrew (It will ask for your Mac password. Typing is invisible, which is normal!)
-/bin/bash -c "$(curl -fsSL [https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh](https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh))"
-```
-
-<details>
-<summary>💡 點我展開看進階說明 (Click to expand)</summary>
-
-這裡面可以放任何妳想隱藏的內容！
-而且**完全支援** Markdown 語法喔！
-
-像是放一段程式碼：
-```bash
-echo "Hello, LEGEND!"
-```
-</details>
-
-Lebron james
