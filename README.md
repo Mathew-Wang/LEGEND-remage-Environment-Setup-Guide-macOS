@@ -186,6 +186,17 @@ It will undo the process of opening the virtaul environment, but it won't delete
 
 ### 📦 Step 3: Install Packages
 
+<details>
+
+<summary> pip vs. brew </summary>
+
+```bash
+$ pip install --upgrade pip
+$ pip --version
+```
+
+</details>
+
 These packages and venv are in your room so for new rooms new installation. Homebrew, dependencies not the case.
 
 ## Running Simulations
